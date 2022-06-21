@@ -1,0 +1,74 @@
+body{
+   background-color:  hsl(233, 47%, 7%);
+}
+.flex-container{
+    display: flex ;
+    background-color: hsl(244, 38%, 16%);
+    margin: 10%;
+    height: 100%;
+    width: auto;
+    border-radius: 10px;
+}
+.flex-item{
+    width: 50%;
+}
+h1,h4{
+    color: hsl(0, 0%, 100%);
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    margin: -10% 30% 10% 15%;
+}
+h6{
+    color: hsla(0, 0%, 100%, 0.6);
+    font-weight: 400;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.flex-item-2{
+       background-color: hsl(277, 64%, 61%);
+       width: 50%;
+       border-radius:0 10px 10px 0;
+}
+img{
+    mix-blend-mode: multiply;
+    width: 100%;
+}
+.row{
+    margin: 15% 20% 10% 13%;
+}
+h1{
+    margin:15% 15%;
+}
+@media (max-width:500px) {
+    .flex-container{
+        display: flex ;
+        flex-direction: column-reverse;
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+    }
+    .flex-item,.flex-item-2{
+        width: 100%;
+    }
+    img{
+        src: url(../stats-preview-card-component-main/images/image-header-mobile.jpg);
+        width:100%;
+    }
+    p{
+        color: hsla(0, 0%, 100%, 0.75);
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        margin: -5% 18%;
+    }
+    h4,h6{
+        margin: 5% ;
+    }
+    h1{
+        margin: 10% 20%;
+    }
+    }
